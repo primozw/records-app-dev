@@ -1,0 +1,11 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  &__image {
+    display: block;
+    width: 33.3333%;
+    height: auto;
+    min-width: 0;
+  }
+}

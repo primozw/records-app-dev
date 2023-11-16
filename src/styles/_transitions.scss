@@ -1,0 +1,57 @@
+
+.page {
+  &-enter {
+    opacity: 0;
+  }
+  &-enter-active {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  &-exit {
+    opacity: 0;
+  }
+  &-exit-active {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+}
+
+.records-list-item {
+
+
+  &-enter {
+    transform: scale(0);
+  }
+  &-enter-active {
+    transform: scale(1);
+    transition: transform 0.5s;
+  }
+  &-exit {
+    transform: scale(0);
+
+  }
+  &-exit-active {
+    transform: scale(0);
+    transition: transform 0.5s;
+
+  }
+}
+
+
+
+.track {
+  &-enter {
+    opacity: 0;
+  }
+  &-enter-active {
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  &-exit {
+    opacity: 0;
+  }
+  &-exit-active {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+}

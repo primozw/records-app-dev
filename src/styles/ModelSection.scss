@@ -1,0 +1,32 @@
+.step {
+  margin: 0 0 1rem;
+  &__settings-btn {
+    margin-left: auto !important;
+    display: flex !important;
+  }
+}
+
+.step1 {
+  &__palettes {
+    margin-top: 1rem;
+  }
+  &__palette {
+    display: flex;
+    margin-bottom: 1.5rem;
+    //align-items: center;
+    .patch{
+      flex-shrink: 0;
+      margin-right: 1rem;
+      width: 3rem;
+      padding-bottom: 3rem;
+    }
+    h6 {
+      line-height: 1;
+      font-size: 1rem;
+      margin-bottom: 0.25em;
+    }
+    p {
+      margin:0;
+    }
+  }
+}

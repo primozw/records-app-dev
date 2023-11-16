@@ -1,0 +1,27 @@
+html {
+  font-size: 16px;
+  @media only screen and (min-width: $lg){
+    font-size: 18px;
+  }
+}
+body {
+  margin:0;
+  padding:0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// @media screen and (min-width: 320px) and (max-width: 812px) and (orientation: landscape) {
+//   html {
+//     transform: rotate(-90deg);
+//     transform-origin: left top;
+//     width: 100vh;
+//     overflow-x: hidden;
+//     position: absolute;
+//     top: 100%;
+//     left: 0;
+//   }
+// }

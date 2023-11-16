@@ -1,0 +1,17 @@
+{
+  "name": "color-selection-model",
+  "version": "1.0.0",
+  "description": "The model determines how colors extracted from the image should be used in GUI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Primoz Weingerl",
+  "license": "ISC",
+  "dependencies": {
+    "d3-cam02": "^0.1.5",
+    "d3-color": "^1.4.1",
+    "delta-e": "0.0.8",
+    "js-combinatorics": "^1.3.0"
+  }
+}

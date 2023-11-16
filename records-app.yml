@@ -1,0 +1,16 @@
+domains:
+- domain: records.weingerl.com
+  type: PRIMARY
+name: records-app
+region: fra
+catchall_document: index.html
+static_sites:
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: weingerlprimoz/records-app-dev
+  name: records-app-dev-build
+  routes:
+  - path: /
+  source_dir: build

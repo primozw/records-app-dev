@@ -1,0 +1,17 @@
+.side-menu .MuiPaper-root{
+  min-width: 300px;
+  padding: 1rem;
+}
+
+.settings {
+  &__row {
+    margin-top: 2rem;
+  }
+  &__fields{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__field {
+    width: 47.5%;
+  }
+}

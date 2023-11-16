@@ -1,0 +1,24 @@
+.input-data {
+  &--title {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 0.5rem !important;
+    svg {
+      margin-right: 0.25rem;
+    }
+  }
+  &__palette {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+    .patch {
+      width: 20%;
+      padding-top: 20%;
+      height: 0;
+      border: 1px solid rgba(#000, 0.2);
+    }
+  }
+}
+
+
+
